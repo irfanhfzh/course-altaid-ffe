@@ -1,0 +1,10 @@
+.features img {
+  width: 100px;
+}
+.about img {
+  width: 350px;
+}
+.footer {
+  background-color: #333;
+  color: white;
+}

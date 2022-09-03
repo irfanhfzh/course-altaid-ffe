@@ -1,0 +1,85 @@
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+}
+body{
+  display: grid;
+  height: 100vh;
+  background-image: url("/img/sample-pattern.png");
+}
+header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  justify-content: space-between;
+  padding: 10px 30px;
+  background-color: white;
+}
+.logo img {
+  margin-top: 5px;
+  width: 200px;
+}
+nav ul {
+  display: flex;
+  list-style: none;
+}
+nav ul li a {
+  margin-left: 20px;
+  text-decoration: none;
+  color: black;
+  font-weight: bold;
+}
+nav ul li a:hover {
+  opacity: 0.6;
+}
+main {
+  padding: 30px 250px;
+}
+main h1 {
+  text-align: center;
+  margin-bottom: 30px;
+}
+.post-section a {
+  text-decoration: none;
+  color: #1a73e8;
+}
+.post-section a:hover {
+  opacity: 0.6;
+}
+.post-section p {
+  margin-top: 10px;
+}
+.post-section {
+  background-color: white;
+  padding: 30px;
+  border: 1px solid rgb(233, 233, 233);
+}
+footer {
+  padding: 20px;
+  background-color: black;
+  text-align: center;
+  color: white;
+  margin-top: auto;
+}
+
+/* Responsive Breakpoints */
+@media screen and (max-width: 1200px) {
+  main {
+    padding: 30px 150px;
+  }
+}
+@media screen and (max-width: 1024px) {
+  main {
+    padding: 30px 100px;
+  }
+}
+@media screen and (max-width: 768px) {
+  main {
+    padding: 30px 50px;
+  }
+  .logo img {
+    width: 150px;
+  }
+}
+

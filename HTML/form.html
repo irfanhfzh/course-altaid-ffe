@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>MyBook - Sign Up</title>
+</head>
+<body>
+    <h1>Buat Account Baru!</h1>
+    <h2>Sign Up Form</h2>
+    <form action="welcome.html">
+        <label for="fname">First name:</label><br>
+        <input type="text" name="fname" id="fname" required><br><br>
+        <label for="lname">Last name:</label><br>
+        <input type="text" name="lname" id="lname" required><br><br>
+        <label for="gender">Gender:</label> <br>
+        <input type="radio" name="gender" id="male" value="Male" required>
+        <label for="male">Male</label><br>
+        <input type="radio" name="gender" id="female" value="Female">
+        <label for="female">Female</label><br>
+        <input type="radio" name="gender" id="other" value="Other">
+        <label for="other">Other</label><br><br>
+        <label for="nasionality">Nasionality:</label><br>
+        <select name="nasionality" id="nasionality" >
+            <option value="Indonesian">Indonesian</option>
+            <option value="Malaysian">Malaysian</option>
+            <option value="Thailand">Thailand</option>
+            <option value="Singapore">Singapore</option>
+        </select><br><br>
+        <label for="lang">Language Spoken:</label><br>
+        <input type="checkbox" name="lang1" id="lang1" value="Bahasa Indonesia" required>
+        <label for="lang1">Bahasa Indonesia</label><br>
+        <input type="checkbox" name="lang2" id="lang2" value="English">
+        <label for="lang2">English</label><br>
+        <input type="checkbox" name="lang3" id="lang3" value="Other">
+        <label for="lang3">Other</label><br><br>
+        <label for="bio">Bio:</label><br>
+        <textarea name="bio" id="bio" cols="30" rows="10" required></textarea><br>
+        <input type="submit" value="Sign Up">
+    </form>
+</body>
+</html>

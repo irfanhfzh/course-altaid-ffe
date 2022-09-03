@@ -1,0 +1,10 @@
+a. jelaskan kenapa baris 21,22,23 tidak dapat tampil ?
+b. jelaskan kenapa deklarasi pada baris 26 menyebabkan error ?
+c. Dengan melakukan komen pada baris 26, apakah baris 28 dapat dieksekusi ?
+
+Jawaban :
+a. Karena variable Terdaftar nilainya false makan tidak akan tampil sedangkan pada baris tersebut jika variable terdaftar sama dengan nilai true maka tampilkan console.log tersebut, Maka saya mengganti nilai false pada variable Terdaftar dengan nilai true.
+
+b. Karena nilai dari variable const tidak dapat diubah oleh program selama eksekusi normal. Itu tidak dapat berubah melalui penugasan ulang, dan itu tidak dapat dideklarasikan kembali.
+
+c. Baris 28 Dapat dieksekusi, karena ketika kita melakukan komen pada code javascript, Kode tersebut tidak akan dieksekusi oleh browser dan akan langsung mengeksekusi kode lainnya yang berada dibawahnya.
